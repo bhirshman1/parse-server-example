@@ -19,6 +19,7 @@ var api = new ParseServer({
   push: {
     ios: {
       pfx: '/Users/bhirshman1/Desktop/Apps/TV_Club/Certificates.p12'
+      passphrase: '',
       bundleId: 'TV-Club',
       production: false
     }
