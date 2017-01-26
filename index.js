@@ -21,7 +21,7 @@ var api = new ParseServer({
       pfx: '/Users/bhirshman1/Desktop/Apps/TV_Club/Certificates.p12'
       //passphrase: '',
       bundleId: 'TV-Club',
-      production: false
+      //production: false
     }
   }
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
