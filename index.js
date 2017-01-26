@@ -18,9 +18,9 @@ var api = new ParseServer({
   masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
   push: {
    ios: {
-      pfx: '/Users/bhirshman1/Desktop/Apps/TV_Club/Certificates.p12'
+      //pfx: '/Users/bhirshman1/Desktop/Apps/TV_Club/Certificates.p12'
       //passphrase: '',
-      bundleId: 'TV-Club',
+      //bundleId: 'TV-Club',
       //production: false
     }
   }
