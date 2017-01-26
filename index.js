@@ -28,7 +28,7 @@ var api = new ParseServer({
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },
   filesAdapter: new S3Adapter(
-    //"AKIAIRG23FNKR5EPJNPA",
+    ///"AKIAIRG23FNKR5EPJNPA",
     //"qRQ+g7CjgNQB3Ahd++ohMPKoB2p1rNhSRVUm7KR1",
     //"tvclub",
     //{directAccess: true}
