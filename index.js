@@ -34,7 +34,8 @@ var api = new ParseServer({
     //{directAccess: true}
     process.env.AWS_ACCESS_KEY,
     process.env.AWS_SECRET_ACCESS_KEY,
-    {bucket: process.env.AWS_BUCKET_NAME, bucketPrefix: "", directAccess: true}
+    process.env.AWS_BUCKET_NAME,
+    {directAccess: true}
   )
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
