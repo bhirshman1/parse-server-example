@@ -2,7 +2,7 @@
 Parse.Cloud.define("iosPush", function(request, response) {
  
   //var user = request.user;
-  //var params = request.params;
+  var params = request.params;
   //var someKey = params.someKey
   var data = params.data
  
