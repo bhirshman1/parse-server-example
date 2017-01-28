@@ -11,7 +11,8 @@ Parse.Cloud.define("iosPush", function(request, response) {
   //pushQuery.equalTo("someKey", someKey)
  
   Parse.Push.send({
-    where: pushQuery, // Set our Installation query
+    //where: pushQuery, // Set our Installation query
+    channels: [""],
     data: data
   }, { success: function() {
       console.log("#### PUSH OK");
