@@ -25,4 +25,5 @@ Parse.Cloud.define("iosPush", function(request, response) {
 
 Parse.Cloud.define('hello', function(req, res) {
   res.success('Hi (from the cloud)');
+ console.log("This is from the cloud");
 });
