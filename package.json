@@ -2,9 +2,6 @@
   "name": "parse-server-example",
   "version": "1.4.0",
   "description": "An example Parse API server using the parse-server module",
-  "engines": {
-    "npm": "5.7.1"
-  },
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -21,6 +18,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": ">=4.3"
+    "node": ">=4.3",
+    "npm": ">=5.7.1"
   }
 }
