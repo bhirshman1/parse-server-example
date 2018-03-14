@@ -29,17 +29,17 @@ var api = new ParseServer({
   },
   appName: 'TV Yapp™',
   publicServerURL: process.env.SERVER_URL,
-  emailAdapter: {
-    module: 'parse-server-mailgun',
-    options: {
+//  emailAdapter: {
+//    module: 'parse-server-mailgun',
+//    options: {
       // The address that your emails come from 
-      fromAddress: 'noreply@tvyapp.com',
+//      fromAddress: 'noreply@tvyapp.com',
       // Your domain from mailgun.com 
-      domain: 'mail.hirshmania.com',
+//      domain: 'mail.hirshmania.com',
       // Your API key from mailgun.com 
-      apiKey: process.env.MAILGUN_API_KEY,
-    }
-  },
+//      apiKey: process.env.MAILGUN_API_KEY,
+//    }
+//  },
   filesAdapter: new S3Adapter(
     process.env.AWS_ACCESS_KEY,
     process.env.AWS_SECRET_ACCESS_KEY,
