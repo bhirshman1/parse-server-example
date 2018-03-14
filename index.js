@@ -30,7 +30,7 @@ var api = new ParseServer({
   appName: 'TV Yapp™',
   publicServerURL: process.env.SERVER_URL,
   emailAdapter: {
-    module: 'simple-mailgun-adapter',
+    module: 'parse-server-mailgun',
     options: {
       // The address that your emails come from 
       fromAddress: 'noreply@tvyapp.com',
