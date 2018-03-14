@@ -19,7 +19,7 @@ var api = new ParseServer({
   push: {
    ios: {
       pfx: './DistributionPush.p12',
-      bundleId: 'TV-Club',
+      topic: 'TV-Club',
       production: true
     }
   },
