@@ -18,7 +18,7 @@ var api = new ParseServer({
   masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
   push: {
    ios: {
-      pfx: './DistributionPush.p12',
+      pfx: './Push_Cert2019.p12',
       topic: 'TV-Club',
       production: true
     }
